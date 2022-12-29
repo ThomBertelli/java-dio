@@ -27,8 +27,6 @@ public class Exercicio05_Tabuada {
 			numero = scanner.nextInt();
 		}
 		
-		
-		
 		for(int n = 1; n <= 10; n++) {
 		
 			System.out.println(numero + " X " + n + " = " + (numero * n));
