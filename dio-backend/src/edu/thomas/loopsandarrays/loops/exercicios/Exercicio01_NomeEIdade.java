@@ -1,4 +1,4 @@
-package edu.thomas.loopsandarrays;
+package edu.thomas.loopsandarrays.loops.exercicios;
 
 import java.util.Scanner;
 
