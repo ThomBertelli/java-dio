@@ -17,19 +17,14 @@ Se a pessoa responder positivamente a 2 questões ela deve ser
 classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como
 "Assassina". Caso contrário, ela será classificado como "Inocente".*/
 
-
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-
-
 public class Exercicio02 {
 	
 	public static void main(String[] args) {
-		
 		
 		List<String> perguntas = new ArrayList<>();
 		
@@ -52,14 +47,9 @@ public class Exercicio02 {
 				contadorSim++;			
 			}
 		}
-
 		if(contadorSim == 2) System.out.println("Suspeito");
 		else if(contadorSim == 3 || contadorSim == 4) System.out.println("Cúmplice");
 		else if(contadorSim == 5) System.out.println("Assassino");
 		else System.out.println("Inocente");
-		
 	}
-	
-	
-	
 }
