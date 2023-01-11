@@ -114,6 +114,7 @@ public class Exercicio01 {
 		System.out.println(estadosPopulacao);
 		
 //		Apague o dicionário de estados;
+		
 		estadosPopulacao.clear();
 		
 //		Confira se o dicionário está vazio.
